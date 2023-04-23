@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Título</title>
+  <!-- Google Fonts
+      <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    -->
+  <!-- Icons
+    
+    -->
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <link rel="icon" href="./assets/images/favicon.png" />
+  
+</head>
+
+<body onload="getData()">
+  
+  <header class="header">
+    <div class="header__title">
+      <h1>Recetas</h1>
+      <h2>Ideas de recetas para todos los días</h2>
+      <input class="text js-text" type="text"  placeholder="Buscar por tipo de comida: ejemplo Asian" />
+    </div>
+
+  </header>
+  <main class="main">
+      <div class="main__container">
+          <button class="savebutton js-savebtn" title="Guardar">Guardar</button>
+          <button class="recoverbutton js-recoverbutton" title="Recuperar">Recuperar</button>
+          <div class="choosen js-choosen">
+              <h3>Menú Semanal</h3>
+              <ul class="recipeFavourites js-recipeFavourites"></ul>
+              <hr>
+          </div>
+          <section class="recipes js-recipes"></section>
+      </div>
+  </main>
+      
+     
+  <footer class="footer">
+
+  </footer>
+  <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
